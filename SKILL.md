@@ -1,6 +1,10 @@
 ---
 name: prettify-pdf
 description: Redesign or QA PDFs for clarity while preserving IDs, dates, amounts, barcodes, QR codes, seals, signatures, labels, and meaning. Use for receipts, invoices, forms, tickets, resumes, reports.
+license: MIT
+metadata:
+  openclaw:
+    homepage: https://github.com/sethupavan12/prettify-pdf
 ---
 
 # Prettify PDF

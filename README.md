@@ -1,5 +1,7 @@
 # prettify-pdf
 
+[![skills.sh](https://skills.sh/b/sethupavan12/prettify-pdf)](https://skills.sh/sethupavan12/prettify-pdf)
+
 Make PDFs easier to read without breaking the facts that make them official.
 
 `prettify-pdf` is an open, provider-neutral Agent Skill for redesigning and QAing PDFs that contain high-stakes information: receipts, invoices, appointments, tickets, government forms, reports, resumes, statements, and anything with IDs, dates, amounts, barcodes, QR codes, seals, stamps, or signatures.
@@ -20,17 +22,33 @@ For Codex-style local skills:
 
 ```bash
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
-git clone https://github.com/<your-username>/prettify-pdf "${CODEX_HOME:-$HOME/.codex}/skills/prettify-pdf"
+git clone https://github.com/sethupavan12/prettify-pdf "${CODEX_HOME:-$HOME/.codex}/skills/prettify-pdf"
 ```
 
 For Claude Code-style personal skills:
 
 ```bash
 mkdir -p "$HOME/.claude/skills"
-git clone https://github.com/<your-username>/prettify-pdf "$HOME/.claude/skills/prettify-pdf"
+git clone https://github.com/sethupavan12/prettify-pdf "$HOME/.claude/skills/prettify-pdf"
 ```
 
 For project-scoped skills, copy or vendor this folder into your project skill directory, for example `.claude/skills/prettify-pdf/`.
+
+OpenClaw shared skill:
+
+```bash
+mkdir -p "$HOME/.openclaw/skills"
+git clone https://github.com/sethupavan12/prettify-pdf "$HOME/.openclaw/skills/prettify-pdf"
+openclaw skills list
+```
+
+Directory / package-manager installs:
+
+```bash
+npx skills add sethupavan12/prettify-pdf
+```
+
+More platform-specific commands are in [docs/usage-claude-openclaw.md](docs/usage-claude-openclaw.md).
 
 ## Use
 
@@ -49,6 +67,12 @@ Use $prettify-pdf to QA this redesigned invoice against the original PDF. Find a
 ```
 
 More examples are in [examples/prompts.md](examples/prompts.md).
+
+## Directory Links
+
+- GitHub: [sethupavan12/prettify-pdf](https://github.com/sethupavan12/prettify-pdf)
+- skills.sh install: `npx skills add sethupavan12/prettify-pdf`
+- Directory publishing notes: [docs/publishing-directories.md](docs/publishing-directories.md)
 
 ## What The Skill Enforces
 
@@ -74,8 +98,10 @@ prettify-pdf/
 ├── docs/
 │   ├── agent-compatibility.md
 │   ├── launch-plan.md
+│   ├── publishing-directories.md
 │   ├── quality-gates.md
-│   └── release-checklist.md
+│   ├── release-checklist.md
+│   └── usage-claude-openclaw.md
 ├── evals/
 │   └── evals.json
 └── agents/
@@ -131,6 +157,7 @@ python /path/to/quick_validate.py .
 Contributions are welcome, especially better validation heuristics, examples, eval cases, and agent compatibility notes. Start with [CONTRIBUTING.md](CONTRIBUTING.md).
 
 For launch positioning, repository topics, and announcement copy, see [docs/launch-plan.md](docs/launch-plan.md).
+For directory submission steps, see [docs/publishing-directories.md](docs/publishing-directories.md).
 
 ## Security And Privacy
 

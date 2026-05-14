@@ -57,3 +57,4 @@ To make the repo easier to find:
 - Add GitHub topics: `agent-skills`, `skill-md`, `pdf`, `pdf-tools`, `document-ai`, `codex`, `claude-code`, `local-first`, `privacy`.
 - Use a concise repo description: `Agent Skill for prettifying PDFs without breaking IDs, barcodes, dates, amounts, or source meaning.`
 - Pin a demo issue or discussion with synthetic before/after examples.
+- Submit to directory listings using [publishing-directories.md](publishing-directories.md).
