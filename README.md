@@ -69,7 +69,6 @@ prettify-pdf/
 │   └── prompts.md
 ├── docs/
 │   ├── agent-compatibility.md
-│   ├── launch-plan.md
 │   ├── publishing-directories.md
 │   ├── quality-gates.md
 │   ├── release-checklist.md
@@ -128,7 +127,6 @@ python /path/to/quick_validate.py .
 
 Contributions are welcome, especially better validation heuristics, examples, eval cases, and agent compatibility notes. Start with [CONTRIBUTING.md](CONTRIBUTING.md).
 
-For launch positioning, repository topics, and announcement copy, see [docs/launch-plan.md](docs/launch-plan.md).
 For directory submission steps, see [docs/publishing-directories.md](docs/publishing-directories.md).
 
 ## Security And Privacy
