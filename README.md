@@ -16,39 +16,11 @@ This skill teaches an agent to treat the original PDF as evidence, then redesign
 
 ## Install
 
-Clone the repo into a skills directory supported by your agent.
-
-For Codex-style local skills:
-
-```bash
-mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
-git clone https://github.com/sethupavan12/prettify-pdf "${CODEX_HOME:-$HOME/.codex}/skills/prettify-pdf"
-```
-
-For Claude Code-style personal skills:
-
-```bash
-mkdir -p "$HOME/.claude/skills"
-git clone https://github.com/sethupavan12/prettify-pdf "$HOME/.claude/skills/prettify-pdf"
-```
-
-For project-scoped skills, copy or vendor this folder into your project skill directory, for example `.claude/skills/prettify-pdf/`.
-
-OpenClaw shared skill:
-
-```bash
-mkdir -p "$HOME/.openclaw/skills"
-git clone https://github.com/sethupavan12/prettify-pdf "$HOME/.openclaw/skills/prettify-pdf"
-openclaw skills list
-```
-
-Directory / package-manager installs:
-
 ```bash
 npx skills add sethupavan12/prettify-pdf
 ```
 
-More platform-specific commands are in [docs/usage-claude-openclaw.md](docs/usage-claude-openclaw.md).
+Manual Claude, OpenClaw, and project-scoped installs are in [docs/usage-claude-openclaw.md](docs/usage-claude-openclaw.md).
 
 ## Use
 
